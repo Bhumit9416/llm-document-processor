@@ -1,0 +1,94 @@
+{
+  "policies": [
+    {
+      "policy_id": "NPM001",
+      "policyholder": {
+        "name": "John Doe",
+        "age": 35,
+        "gender": "Male",
+        "contact": {
+          "email": "john.doe@example.com",
+          "phone": "+91-9876543210"
+        }
+      },
+      "policy_details": {
+        "plan_type": "Plan A",
+        "sum_insured": 500000,
+        "premium": 12500,
+        "start_date": "2023-01-01",
+        "end_date": "2024-01-01",
+        "no_claim_bonus": "5%"
+      },
+      "coverage": {
+        "hospitalization": true,
+        "ayush_treatment": true,
+        "maternity": true,
+        "organ_donor": true,
+        "day_care": true,
+        "domiciliary": false
+      },
+      "waiting_periods": {
+        "pre_existing_diseases": "36 months",
+        "specific_conditions": "24 months",
+        "maternity": "24 months",
+        "cataract": "24 months"
+      },
+      "sub_limits": {
+        "room_rent": "1% of Sum Insured",
+        "icu": "2% of Sum Insured",
+        "cataract": "10% of Sum Insured",
+        "specified_diseases": "25% of Sum Insured"
+      }
+    },
+    {
+      "policy_id": "NPM002",
+      "policyholder": {
+        "name": "Jane Smith",
+        "age": 42,
+        "gender": "Female",
+        "contact": {
+          "email": "jane.smith@example.com",
+          "phone": "+91-9876543211"
+        }
+      },
+      "policy_details": {
+        "plan_type": "Plan B",
+        "sum_insured": 1000000,
+        "premium": 25000,
+        "start_date": "2023-02-15",
+        "end_date": "2024-02-15",
+        "no_claim_bonus": "0%"
+      },
+      "coverage": {
+        "hospitalization": true,
+        "ayush_treatment": true,
+        "maternity": true,
+        "organ_donor": true,
+        "day_care": true,
+        "domiciliary": true
+      },
+      "waiting_periods": {
+        "pre_existing_diseases": "36 months",
+        "specific_conditions": "24 months",
+        "maternity": "24 months",
+        "cataract": "24 months"
+      },
+      "sub_limits": {
+        "room_rent": "2% of Sum Insured",
+        "icu": "4% of Sum Insured",
+        "cataract": "15% of Sum Insured",
+        "specified_diseases": "30% of Sum Insured"
+      }
+    }
+  ],
+  "definitions": {
+    "hospital": "An institution established for in-patient care and day care treatment of illness and/or injuries and which has been registered as a hospital with the local authorities under Clinical Establishments (Registration and Regulation) Act 2010 or under enactments specified under the Schedule of Section 56(1) and the said act Or complies with all minimum criteria as under: has qualified nursing staff under its employment round the clock; has at least 10 in-patient beds in towns having a population of less than 10,00,000 and at least 15 in-patient beds in all other places; has qualified medical practitioner(s) in charge round the clock; has a fully equipped operation theatre of its own where surgical procedures are carried out; maintains daily records of patients and makes these accessible to the insurance company's authorized personnel.",
+    "ayush_hospital": "A healthcare facility wherein medical/surgical/para-surgical treatment procedures and interventions are carried out by AYUSH Medical Practitioner(s) comprising of any of the following: Central or State Government AYUSH Hospital; or Teaching hospital attached to AYUSH College recognized by the Central Government/Central Council of Indian Medicine/Central Council for Homeopathy; or AYUSH Hospital, standalone or co-located with in-patient healthcare facility of any recognized system of medicine, registered with the local authorities, wherever applicable, and is under the supervision of a qualified registered AYUSH Medical Practitioner and must comply with the following criteria: Having at least 5 in-patient beds; Having qualified AYUSH Medical Practitioner in charge round the clock; Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surgical procedures are to be carried out; Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative.",
+    "pre_existing_disease": "Any condition, ailment, injury or disease: a) That is/are diagnosed by a physician within 48 months prior to the effective date of the policy issued by the insurer or its reinstatement or b) For which medical advice or treatment was recommended by, or received from, a physician within 48 months prior to the effective date of the policy issued by the insurer or its reinstatement."
+  },
+  "general_conditions": {
+    "grace_period": "A grace period of thirty days is allowed following the expiry of the policy period to maintain continuity of coverage. No coverage is available during the grace period. However, no coverage is available for expenses incurred during the break period.",
+    "no_claim_discount": "The insured shall be entitled for a No Claim Discount of 5% on the base premium, on renewal of a claim free policy, for a one-year policy term. The aggregate of such discount shall not exceed 5% of the total base premium.",
+    "preventive_health_checkup": "Expenses incurred for preventive health check-up will be reimbursed at the end of a block of two continuous policy years, subject to a maximum of the amount specified in the Table of Benefits, provided no claims have been made during this period and the policy has been renewed without a break."
+  }
+}

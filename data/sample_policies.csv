@@ -1,0 +1,6 @@
+Policy_ID,Policyholder_Name,Age,Gender,Sum_Insured,Plan_Type,Start_Date,End_Date,Premium,No_Claim_Bonus,Waiting_Period_PED,Waiting_Period_Specific,Room_Rent_Cap,ICU_Cap
+NPM001,John Doe,35,Male,500000,Plan A,2023-01-01,2024-01-01,12500,5%,36 months,24 months,1% of SI,2% of SI
+NPM002,Jane Smith,42,Female,1000000,Plan B,2023-02-15,2024-02-15,25000,0%,36 months,24 months,2% of SI,4% of SI
+NPM003,Robert Johnson,28,Male,300000,Plan A,2023-03-10,2024-03-10,7500,5%,36 months,24 months,1% of SI,2% of SI
+NPM004,Emily Davis,50,Female,750000,Plan C,2023-01-20,2024-01-20,18750,0%,36 months,24 months,No Cap,No Cap
+NPM005,Michael Brown,33,Male,500000,Plan B,2023-04-05,2024-04-05,12500,5%,36 months,24 months,2% of SI,4% of SI
